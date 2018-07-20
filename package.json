@@ -4,7 +4,6 @@
   "description": "WalkieTalkie client",
   "main": "src/index.js",
   "scripts": {
-    "debug2": "nodemon --watch src/ --inspect-brk=0.0.0.0:9229 --nolazy src/index.js",
     "start": "node src/index.js"
   },
   "author": "home@seank.com",

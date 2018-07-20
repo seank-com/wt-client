@@ -10,6 +10,6 @@ ws.on('open', function open() {
 });
    
 ws.on('message', function incoming(data) {
-    fs.writeFileSync('test.wav', data);
+    fs.writeFileSync('lastMsg.wav', data);
     console.log('received message');
 });
